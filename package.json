@@ -9,7 +9,6 @@
     "email": "hemanth.hm@gmail.com",
     "url": "h3manth.com"
   },
-  "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
   },
