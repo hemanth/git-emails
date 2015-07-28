@@ -1,0 +1,30 @@
+{
+  "name": "git-emails",
+  "version": "0.0.0",
+  "description": "My striking module",
+  "license": "MIT",
+  "repository": "hemanth/git-emails",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "git",
+    "emails",
+    "info"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
