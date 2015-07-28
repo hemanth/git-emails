@@ -1,6 +1,6 @@
 {
   "name": "git-emails",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get contributor's emails within a git repo!",
   "license": "MIT",
   "repository": "hemanth/git-emails",
