@@ -1,6 +1,6 @@
 # git-emails [![Build Status](https://travis-ci.org/hemanth/git-emails.svg?branch=master)](https://travis-ci.org/hemanth/git-emails)
 
-> Get all git contributors emails
+> Get contributor's emails within a git repo!
 
 
 ## Install
