@@ -5,8 +5,8 @@ module.exports = function (/*path*/ cb) {
 	if(!cb) throw new Error("callback missing");
 	exec('git log --pretty="%ae"', function (error, emails, stderr) {
 		if(!error || !stderr) return cb(null,emails.split('\n')
-			.filter(function (e) {
-					return e
+			.filter(function (email) {
+				return email;
 			})
 			.reduce(function (prev, cur) {
 				return (prev.indexOf(cur) < 0) ? prev.concat([cur]) : prev;
