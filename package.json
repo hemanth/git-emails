@@ -1,6 +1,6 @@
 {
   "name": "git-emails",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get contributor's emails within a git repo!",
   "license": "MIT",
   "repository": "hemanth/git-emails",
@@ -13,7 +13,7 @@
     "node": ">= 4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test.js"
   },
   "files": [
     "index.js"
@@ -24,6 +24,6 @@
     "info"
   ],
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^11.7.0"
   }
 }
